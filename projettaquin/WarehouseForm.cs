@@ -14,32 +14,9 @@ namespace projettaquin
         static Graphics g;
         static Pen pen;
 
-        public WarehouseForm()
-        {
-            InitializeComponent();
-        }
+        /* Creating warehouse */
 
-        private void WarehouseForm_Load(object sender, EventArgs e)
-        {
-            g = this.CreateGraphics();
-            pen = new Pen(Color.Chartreuse,15);
-        }
-
-        private void WarehouseForm_Paint(object sender, PaintEventArgs e)
-        {
-            for (int i = 0; i < 24; i++)
-            {
-                for (int j = 0; j < 24; j++)
-                {
-                    g.DrawRectangle(pen, i * 15, j * 15, 15, 15);
-                }
-            }
-        }
-
-
-        /* Création entrepôt */
-
-        int[,] warehouse = 
+        static int[,] warehouse = 
         {
             {2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},                    //0
             {2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},                    //1
@@ -68,7 +45,62 @@ namespace projettaquin
             {2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},                    //24
         };
 
-        int[,] cart = { { 0, 3 }, { 7, 9 }, { 19, 7 }, { 24, 7 }, { 13, 10 }, { 12, 14 }, { 11, 18 }, { 9, 19 }, { 19, 19 }, { 1, 21 }, { 9, 23 }, { 19, 23 }, { 18, 24 } };
+        static int[,] cart = { { 0, 3 }, { 7, 9 }, { 19, 7 }, { 24, 7 }, { 13, 10 }, { 12, 14 }, { 11, 18 }, { 9, 19 }, { 19, 19 }, { 1, 21 }, { 9, 23 }, { 19, 23 }, { 18, 24 } };
+
+
+        public WarehouseForm()
+        {
+            InitializeComponent();
+        }
+
+        private void WarehouseForm_Load(object sender, EventArgs e)
+        {
+            g = this.CreateGraphics();
+            pen = new Pen(Color.Chartreuse,15);
+        }
+
+        private void WarehouseForm_Paint(object sender, PaintEventArgs e)
+        {
+            for (int i = 0; i < 24; i++)
+            {
+                for (int j = 0; j < 24; j++)
+                {
+                    if (warehouse[j, i] == 2)
+                    {
+                        pen.Color = Color.Chartreuse;
+                        g.DrawRectangle(pen, i * 15, j * 15, 15, 15);
+                    }
+                    else if (warehouse[j, i] == 1)
+                    {
+                        pen.Color = Color.White;
+                        g.DrawRectangle(pen, i * 15, j * 15, 15, 15);
+                    }
+                    else if (warehouse[j, i] == -1)
+                    {
+                        pen.Color = Color.Blue;
+                        g.DrawRectangle(pen, i * 15, j * 15, 15, 15);
+                    }
+
+                    if (cartInLocation(j,i))
+                    {
+                        pen.Width = 5;
+                        pen.Color = Color.Black;
+                        g.DrawRectangle(pen, i * 15, j * 15, 10, 10);
+                        pen.Width = 15;
+                    }
+                }
+            }
+        }
+
+        private bool cartInLocation(int x, int y)
+        {
+            for (int i = 0; i < cart.Length/2; i++)
+            {
+                if (y == cart[i, 0] && x == cart[i, 1])
+                    return true;
+            }
+            return false;
+        }
 
         public void InsertCart()
         {

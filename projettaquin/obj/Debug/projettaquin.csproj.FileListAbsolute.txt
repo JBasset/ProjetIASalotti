@@ -42,3 +42,10 @@ H:\Projet IA Salotti\projettaquin\obj\Debug\projettaquin.pdb
 H:\2A\IART\PROJET_SALOTTI\ProjetIASalotti\projettaquin\bin\Debug\projettaquin.exe.config
 H:\2A\IART\PROJET_SALOTTI\ProjetIASalotti\projettaquin\obj\Debug\projettaquin.exe
 H:\2A\IART\PROJET_SALOTTI\ProjetIASalotti\projettaquin\obj\Debug\projettaquin.pdb
+H:\Projet IA Salotti\projettaquin\bin\Debug\projettaquin.exe
+H:\Projet IA Salotti\projettaquin\bin\Debug\projettaquin.pdb
+H:\Projet IA Salotti\projettaquin\obj\Debug\projettaquin.csprojResolveAssemblyReference.cache
+H:\Projet IA Salotti\projettaquin\obj\Debug\projettaquin.Form1.resources
+H:\Projet IA Salotti\projettaquin\obj\Debug\projettaquin.Properties.Resources.resources
+H:\Projet IA Salotti\projettaquin\obj\Debug\projettaquin.WarehouseForm.resources
+H:\Projet IA Salotti\projettaquin\obj\Debug\projettaquin.csproj.GenerateResource.Cache
