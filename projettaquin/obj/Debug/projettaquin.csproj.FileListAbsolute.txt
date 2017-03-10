@@ -1,0 +1,37 @@
+C:\Users\jsalotti\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\projettaquin\bin\Debug\projettaquin.exe.config
+C:\Users\jsalotti\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\bin\Debug\projettaquin.exe.config
+C:\Users\jsalotti\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.csprojResolveAssemblyReference.cache
+C:\Users\jsalotti\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.Form1.resources
+C:\Users\jsalotti\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.Properties.Resources.resources
+C:\Users\jsalotti\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.csproj.GenerateResource.Cache
+C:\Users\jsalotti\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\bin\Debug\projettaquin.exe
+C:\Users\jsalotti\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\bin\Debug\projettaquin.pdb
+C:\Users\jsalotti\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.exe
+C:\Users\jsalotti\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.pdb
+C:\Users\jsalotti.ENSC.000\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\bin\Debug\projettaquin.exe.config
+C:\Users\jsalotti.ENSC.000\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.exe
+C:\Users\jsalotti.ENSC.000\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.pdb
+C:\Users\jsalotti.ENSC.000\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\bin\Debug\projettaquin.exe
+C:\Users\jsalotti.ENSC.000\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\bin\Debug\projettaquin.pdb
+C:\Users\jsalotti.ENSC.000\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.csprojResolveAssemblyReference.cache
+C:\Users\jsalotti.ENSC.000\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.Form1.resources
+C:\Users\jsalotti.ENSC.000\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.Properties.Resources.resources
+C:\Users\jsalotti.ENSC.000\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.csproj.GenerateResource.Cache
+C:\Users\jean-matc\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\bin\Debug\projettaquin.exe.config
+C:\Users\jean-matc\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.exe
+C:\Users\jean-matc\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.pdb
+C:\Users\jean-matc\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\bin\Debug\projettaquin.exe
+C:\Users\jean-matc\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\bin\Debug\projettaquin.pdb
+C:\Users\jean-matc\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.csprojResolveAssemblyReference.cache
+C:\Users\jean-matc\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.Form1.resources
+C:\Users\jean-matc\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.Properties.Resources.resources
+C:\Users\jean-matc\Documents\enseignement\Ingénieurs\intelligence artificielle\taquin\projettaquin\obj\Debug\projettaquin.csproj.GenerateResource.Cache
+H:\taquin\projettaquin\bin\Debug\projettaquin.exe.config
+H:\taquin\projettaquin\obj\Debug\projettaquin.pdb
+H:\taquin\projettaquin\bin\Debug\projettaquin.exe
+H:\taquin\projettaquin\bin\Debug\projettaquin.pdb
+H:\taquin\projettaquin\obj\Debug\projettaquin.csprojResolveAssemblyReference.cache
+H:\taquin\projettaquin\obj\Debug\projettaquin.Form1.resources
+H:\taquin\projettaquin\obj\Debug\projettaquin.Properties.Resources.resources
+H:\taquin\projettaquin\obj\Debug\projettaquin.csproj.GenerateResource.Cache
+H:\taquin\projettaquin\obj\Debug\projettaquin.exe
