@@ -35,3 +35,7 @@ H:\taquin\projettaquin\obj\Debug\projettaquin.Form1.resources
 H:\taquin\projettaquin\obj\Debug\projettaquin.Properties.Resources.resources
 H:\taquin\projettaquin\obj\Debug\projettaquin.csproj.GenerateResource.Cache
 H:\taquin\projettaquin\obj\Debug\projettaquin.exe
+H:\taquin\projettaquin\obj\Debug\projettaquin.WarehouseForm.resources
+H:\Projet IA Salotti\projettaquin\bin\Debug\projettaquin.exe.config
+H:\Projet IA Salotti\projettaquin\obj\Debug\projettaquin.exe
+H:\Projet IA Salotti\projettaquin\obj\Debug\projettaquin.pdb
