@@ -16,6 +16,7 @@ namespace projettaquin
 
         /* Creating warehouse */
 
+        #region warehouse and carts
         static int[,] warehouse =
         {
             {2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},                    //0
@@ -45,8 +46,8 @@ namespace projettaquin
             {2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},                    //24
         };
 
-        static int[,] cart = { { 0, 3 }, { 7, 9 }, { 19, 7 }, { 24, 7 }, { 13, 10 }, { 12, 14 }, { 11, 18 }, { 9, 19 }, { 19, 19 }, { 1, 21 }, { 9, 23 }, { 19, 23 }, { 18, 24 } };
-
+        static List<int[]> cart = new List<int[]> { };
+        #endregion
 
         public WarehouseForm()
         {
@@ -92,9 +93,9 @@ namespace projettaquin
 
         private bool cartInLocation(int x, int y)
         {
-            for (int i = 0; i < cart.Length / 2; i++)
+            for (int i = 0; i < cart.Count; i++)
             {
-                if (y == cart[i, 0] && x == cart[i, 1])
+                if (y == cart[i][0] && x == cart[i][1])
                     return true;
             }
             return false;
@@ -102,12 +103,7 @@ namespace projettaquin
 
         public void InsertCart()
         {
-            int xLength = cart.GetLength(0);
-
-            for (int i = 0; i < xLength; i++)
-            {
-                warehouse[cart[i, 0], cart[i, 1]] = 0;
-            }
+            
         }
     }
 }
