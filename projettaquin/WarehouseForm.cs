@@ -16,7 +16,7 @@ namespace projettaquin
 
         /* Creating warehouse */
 
-        static int[,] warehouse = 
+        static int[,] warehouse =
         {
             {2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},                    //0
             {2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},                    //1
@@ -56,7 +56,7 @@ namespace projettaquin
         private void WarehouseForm_Load(object sender, EventArgs e)
         {
             g = this.CreateGraphics();
-            pen = new Pen(Color.Chartreuse,15);
+            pen = new Pen(Color.Chartreuse, (float)7.5);
         }
 
         private void WarehouseForm_Paint(object sender, PaintEventArgs e)
@@ -68,25 +68,23 @@ namespace projettaquin
                     if (warehouse[j, i] == 2)
                     {
                         pen.Color = Color.Chartreuse;
-                        g.DrawRectangle(pen, i * 15, j * 15, 15, 15);
+                        g.DrawRectangle(pen, (i + 1) * 15, (j + 1) * 15, (float)7.5, (float)7.5);
                     }
                     else if (warehouse[j, i] == 1)
                     {
                         pen.Color = Color.White;
-                        g.DrawRectangle(pen, i * 15, j * 15, 15, 15);
+                        g.DrawRectangle(pen, (i + 1) * 15, (j + 1) * 15, (float)7.5, (float)7.5);
                     }
                     else if (warehouse[j, i] == -1)
                     {
                         pen.Color = Color.Blue;
-                        g.DrawRectangle(pen, i * 15, j * 15, 15, 15);
+                        g.DrawRectangle(pen, (i + 1) * 15, (j + 1) * 15, (float)7.5, (float)7.5);
                     }
 
-                    if (cartInLocation(j,i))
+                    if (cartInLocation(j, i))
                     {
-                        pen.Width = 5;
                         pen.Color = Color.Black;
-                        g.DrawRectangle(pen, i * 15, j * 15, 10, 10);
-                        pen.Width = 15;
+                        g.DrawRectangle(pen, (i + 1) * 15, (j + 1) * 15, (float)7.5, (float)7.5);
                     }
                 }
             }
@@ -94,7 +92,7 @@ namespace projettaquin
 
         private bool cartInLocation(int x, int y)
         {
-            for (int i = 0; i < cart.Length/2; i++)
+            for (int i = 0; i < cart.Length / 2; i++)
             {
                 if (y == cart[i, 0] && x == cart[i, 1])
                     return true;

@@ -49,3 +49,13 @@ H:\Projet IA Salotti\projettaquin\obj\Debug\projettaquin.Form1.resources
 H:\Projet IA Salotti\projettaquin\obj\Debug\projettaquin.Properties.Resources.resources
 H:\Projet IA Salotti\projettaquin\obj\Debug\projettaquin.WarehouseForm.resources
 H:\Projet IA Salotti\projettaquin\obj\Debug\projettaquin.csproj.GenerateResource.Cache
+C:\Users\Jean\Documents\Etudes\ENSC\2A\IASalottiProjet\ProjetIASalotti\projettaquin\bin\Debug\projettaquin.exe.config
+C:\Users\Jean\Documents\Etudes\ENSC\2A\IASalottiProjet\ProjetIASalotti\projettaquin\obj\Debug\projettaquin.exe
+C:\Users\Jean\Documents\Etudes\ENSC\2A\IASalottiProjet\ProjetIASalotti\projettaquin\obj\Debug\projettaquin.pdb
+C:\Users\Jean\Documents\Etudes\ENSC\2A\IASalottiProjet\ProjetIASalotti\projettaquin\bin\Debug\projettaquin.exe
+C:\Users\Jean\Documents\Etudes\ENSC\2A\IASalottiProjet\ProjetIASalotti\projettaquin\bin\Debug\projettaquin.pdb
+C:\Users\Jean\Documents\Etudes\ENSC\2A\IASalottiProjet\ProjetIASalotti\projettaquin\obj\Debug\projettaquin.csprojResolveAssemblyReference.cache
+C:\Users\Jean\Documents\Etudes\ENSC\2A\IASalottiProjet\ProjetIASalotti\projettaquin\obj\Debug\projettaquin.Form1.resources
+C:\Users\Jean\Documents\Etudes\ENSC\2A\IASalottiProjet\ProjetIASalotti\projettaquin\obj\Debug\projettaquin.Properties.Resources.resources
+C:\Users\Jean\Documents\Etudes\ENSC\2A\IASalottiProjet\ProjetIASalotti\projettaquin\obj\Debug\projettaquin.WarehouseForm.resources
+C:\Users\Jean\Documents\Etudes\ENSC\2A\IASalottiProjet\ProjetIASalotti\projettaquin\obj\Debug\projettaquin.csproj.GenerateResource.Cache
